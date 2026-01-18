@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Parts</title>
+    <meta
+      name="description"
+      content="Babe’s Car Parts – Your trusted auto parts supplier since 1995."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body
+    class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black flex items-center justify-center p-8"
+  >
+    <main
+      class="w-full max-w-2xl bg-white rounded-lg shadow-2xl overflow-hidden"
+    >
+      <header
+        class="bg-gradient-to-r from-red-600 to-red-700 text-white p-8 text-center relative overflow-hidden"
+      >
+        <div class="absolute top-0 left-0 w-full h-full opacity-10">
+          <i
+            data-lucide="wrench"
+            class="absolute top-4 left-8 w-16 h-16 rotate-45"
+          ></i>
+          <i
+            data-lucide="wrench"
+            class="absolute bottom-4 right-8 w-20 h-20 -rotate-12"
+          ></i>
+        </div>
+        <div class="relative z-10">
+          <i data-lucide="wrench" class="w-16 h-16 mx-auto mb-4"></i>
+          <h1 class="text-5xl mb-2">Car parts</h1>
+          <p class="text-xl tracking-wide">Your Trusted Auto Parts Supplier</p>
+        </div>
+      </header>
+
+      <section
+        class="p-8 bg-gradient-to-br from-gray-50 to-white border-b-2 border-gray-200"
+      >
+        <h2 class="text-3xl text-gray-800 text-center mb-4">Company Profile</h2>
+
+        <div class="mb-6 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://images.unsplash.com/photo-1666558889375-798fa96b559a?fit=crop&w=1080&q=80"
+            alt="Our Professional Team"
+            class="w-full h-64 object-cover"
+          />
+          <div class="bg-red-600 text-white text-center py-2">
+            <p class="text-lg">Our Professional Team – Ready to Serve You</p>
+          </div>
+        </div>
+
+        <div class="text-gray-700 space-y-3">
+          <p class="text-lg leading-relaxed">
+            Established in 1995, <strong>Auto Parts Pro</strong> has been
+            serving the automotive community for over 25 years with premium
+            quality parts and exceptional customer service.
+          </p>
+          <p class="text-lg leading-relaxed">
+            We specialize in providing OEM and aftermarket parts for all major
+            vehicle makes and models.
+          </p>
+        </div>
+      </section>
+
+      <section class="p-8 border-b-4 border-red-600">
+        <div class="flex items-center justify-center mb-6">
+          <i data-lucide="clock" class="w-8 h-8 text-red-600 mr-3"></i>
+          <h2 class="text-3xl text-gray-800">Business Hours</h2>
+        </div>
+
+        <div class="space-y-3">
+          <div class="flex justify-between items-center bg-gray-50 p-4 rounded">
+            <span class="text-lg">Monday – Friday</span>
+            <span class="text-lg text-red-600">8:00 AM – 7:00 PM</span>
+          </div>
+          <div class="flex justify-between items-center bg-gray-50 p-4 rounded">
+            <span class="text-lg">Saturday</span>
+            <span class="text-lg text-red-600">9:00 AM – 6:00 PM</span>
+          </div>
+          <div class="flex justify-between items-center bg-gray-50 p-4 rounded">
+            <span class="text-lg">Sunday</span>
+            <span class="text-lg text-red-600">10:00 AM – 4:00 PM</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="p-8 bg-gray-50">
+        <h2 class="text-3xl text-gray-800 text-center mb-6">Contact Us</h2>
+
+        <address class="space-y-5 not-italic">
+          <div class="flex items-center bg-white p-4 rounded shadow-sm">
+            <div class="bg-red-600 p-3 rounded-full mr-4">
+              <i data-lucide="phone" class="w-6 h-6 text-white"></i>
+            </div>
+            <div>
+              <p class="text-sm text-gray-500">Phone</p>
+              <p class="text-xl text-gray-800">(555) 123-4567</p>
+            </div>
+          </div>
+
+          <div class="flex items-center bg-white p-4 rounded shadow-sm">
+            <div class="bg-red-600 p-3 rounded-full mr-4">
+              <i data-lucide="mail" class="w-6 h-6 text-white"></i>
+            </div>
+            <div>
+              <p class="text-sm text-gray-500">Email</p>
+              <p class="text-xl text-gray-800">info@autopartspro.com</p>
+            </div>
+          </div>
+
+          <div class="flex items-center bg-white p-4 rounded shadow-sm">
+            <div class="bg-red-600 p-3 rounded-full mr-4">
+              <i data-lucide="map-pin" class="w-6 h-6 text-white"></i>
+            </div>
+            <div>
+              <p class="text-sm text-gray-500">Address</p>
+              <p class="text-xl text-gray-800">
+                1234 Auto Boulevard, Suite 100
+              </p>
+              <p class="text-lg text-gray-600">Motor City, MC 45678</p>
+            </div>
+          </div>
+        </address>
+      </section>
+
+      <footer class="bg-gray-900 text-white p-6 text-center">
+        <p class="text-xl">Quality Parts • Expert Service • Fair Prices</p>
+      </footer>
+    </main>
+
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
